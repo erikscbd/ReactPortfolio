@@ -6,15 +6,15 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Header({handlePageChange}) {
   return (
-    <header className='bg-info text-dark mb-4 py-3 display-flex align-center'>
+    <header className=' text-dark mb-4 py-3 display-flex align-center'>
       
-      <Navbar bg="light" variant="light">
+      <Navbar bg="" variant="light">
         <Container>
-          <Navbar.Brand href="#home">Erik Escobedo</Navbar.Brand>
+          <Navbar.Brand href="#home"></Navbar.Brand>
           <Nav className="ml-auto">
             <Nav.Link   onClick={() => handlePageChange('Home')} href="#home">Home</Nav.Link>
             <Nav.Link   onClick={() => handlePageChange('Portfolio')} href="#portfolio">Portfolio</Nav.Link>
-            <Nav.Link   onClick={() => handlePageChange('Resume')} href="#resume">Resume</Nav.Link>
+            {/* <Nav.Link   onClick={() => handlePageChange('Resume')} href="#resume">Resume</Nav.Link> */}
             <Nav.Link   onClick={() => handlePageChange('Contact')} href="#contact">Contact</Nav.Link>
 
           </Nav>

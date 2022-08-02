@@ -15,28 +15,26 @@ function Contact() {
         <img
           className="img-contact"
           src={process.env.PUBLIC_URL+"/images/GitHub-logo.png"}
-          alt="First slide"
+          alt="GitHub slide"
         />
         <Carousel.Caption>
-          <h3>GitHub Profile</h3>
           <p> <a href="https://github.com/erikscbd">Check my Profile</a></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src={process.env.PUBLIC_URL+"/images/GitHub-logo.png"}
-          alt="Second slide"
+          className="img-contact"
+          src={process.env.PUBLIC_URL+"/images/linkedin-logo.png"}
+          alt="Linkedin slide"
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p> <a href="https://www.linkedin.com/in/erik-escobedo/">Check my Profile</a></p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="img-contact"
           src={process.env.PUBLIC_URL+"/images/GitHub-logo.png"}
           alt="Third slide"
         />
@@ -47,7 +45,7 @@ function Contact() {
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
         </Carousel.Caption>
-      </Carousel.Item>
+      </Carousel.Item> */}
     </Carousel>
     </main>
   );

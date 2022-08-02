@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import Home from "../components/Home";
 import Footer from "../components/Footer";
 import Portfolio from "../components/Portfolio";
-import Resume from "../components/Resume";
+// import Resume from "../components/Resume";
 import Contact from '../components/Contact';
 
 
@@ -19,9 +19,9 @@ export default function Container() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
-    if (currentPage === 'Resume') {
-      return <Resume />;
-    }
+    // if (currentPage === 'Resume') {
+    //   return <Resume />;
+    // }
     if (currentPage === 'Contact') {
       return <Contact />;
     }

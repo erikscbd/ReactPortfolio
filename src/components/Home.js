@@ -5,15 +5,10 @@ import React from "react";
 
 export default function Home() {
   return (
-    <main id="home">
-      <h1>erik's react portfolio</h1>
+    <main id="home" className="container">
+      <h1>erik escobedo</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci.
+       I am a web and software developer from Dallas, TX.
       </p>
       {/* <div className="Container fluid">
         <section className="cards container">
