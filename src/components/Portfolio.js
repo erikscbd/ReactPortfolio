@@ -6,26 +6,26 @@ import Card from 'react-bootstrap/Card';
 var projects = [
     {
         id:1,
-        title:"Code Refactor",
-        description:"HTMLS5 semantic tags",
-        github:"",
-        live:"",
+        title:"National Park Locator",
+        description:"Make finding national parks fun",
+        github:"https://github.com/Kevno5/ProjectOne",
+        live:"https://kevno5.github.io/ProjectOne/",
         images:"/images/project1.png"
     },
     {
         id:3,
-        title:"Code Refactor",
-        description:"HTMLS5 semantic tags",
-        github:"",
-        live:"",
+        title:"Cool Password Generator",
+        description:"Generate your own password",
+        github:"https://github.com/erikscbd/passwordGenerator-Homework--",
+        live:"https://erikscbd.github.io/passwordGenerator-Homework--/",
         images:"/images/passwordGenerator.png"
     },
     {
         id:3,
-        title:"Code Refactor",
-        description:"HTMLS5 semantic tags",
-        github:"",
-        live:"",
+        title:"Day Planner",
+        description:"Plan your day with DayPlanner",
+        github:"https://github.com/erikscbd/05-HW-dayPlanner",
+        live:"https://erikscbd.github.io/05-HW-dayPlanner/",
         images:"/images/dayplanner.jpg"
     },
 ]
@@ -43,8 +43,8 @@ function Portfolio(){
           <Card.Text>
             {p.description}
           </Card.Text>
-          <Button className="m-1" variant="primary"><a className="text-white m-1" href="{p.github}">Github</a></Button>
-          <Button className="m-1" variant="primary"><a className="text-white m-1" href="{p.live}">Live</a></Button>
+          <Button className="m-1" variant="secondary"><a className="text-white m-1" href="{p.github}">Github</a></Button>
+          <Button className="m-1" variant="secondary"><a className="text-white m-1" href="{p.live}">Live</a></Button>
         </Card.Body>
       </Card>
     )
