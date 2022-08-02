@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div>
+    <main id="home">
       <h1>erik's react portfolio</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
@@ -35,6 +35,6 @@ export default function Home() {
           </a>
         </section>
       </div> */}
-    </div>
+    </main>
   );
 }

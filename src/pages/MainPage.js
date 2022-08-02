@@ -32,7 +32,7 @@ export default function Container() {
   return (
     <main>
         <Header handlePageChange={handlePageChange} />
-      <div className="flex-row justify-center">
+      <div className="flex-row justify-center container">
        {renderPage()}
       </div>
       <Footer />
