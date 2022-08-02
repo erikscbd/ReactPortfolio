@@ -43,8 +43,8 @@ function Portfolio(){
           <Card.Text>
             {p.description}
           </Card.Text>
-          <Button className="m-1" variant="secondary"><a className="text-white m-1" href="{p.github}">Github</a></Button>
-          <Button className="m-1" variant="secondary"><a className="text-white m-1" href="{p.live}">Live</a></Button>
+          <Button className="m-1" variant="secondary"><a className="text-white m-1" href={p.github}>Github</a></Button>
+          <Button className="m-1" variant="secondary"><a className="text-white m-1" href={p.live}>Live</a></Button>
         </Card.Body>
       </Card>
     )
